@@ -1,13 +1,16 @@
-const {cmd , commands} = require('../command')
+const fetch = require("node-fetch");
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson} = require('../lib/functions')
+const { cmd } = require("../command");
+
+// get pair 2
 
 cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
-    react: "🎉",
+    react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +923182832XXX",
+    use: ".pair ++923477868XXX",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -17,7 +20,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example -* .pair +923182832XXX");
+            return await reply("*Example -* .pair +923477868XXX");
         }
 
         // Fetch pairing code
@@ -41,7 +44,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
         await sleep(2000);
 
         // Send second message with just the pairing code
-        await reply(`${pairingCode}`);
+        await reply(`Code: ${pairingCode}`);
     } catch (error) {
         console.error(error);
         await reply("An error occurred. Please try again later.");
