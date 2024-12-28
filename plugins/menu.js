@@ -100,6 +100,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• audio
 ┃◈┃• video
 ┃◈┃• video2
+┃◈┃• ytmusic 
 ┃◈┃• ytmp3
 ┃◈┃• ytmp4
 ┃◈┃• song
@@ -236,6 +237,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• shy
 ┃◈┃• kiss
 ┃◈┃• moon
+┃◈┃• character 
+┃◈┃• pickupline 
 ┃◈┃• cunfuzed
 ┃◈┃• hand
 ┃◈┃• nikal
