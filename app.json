@@ -16,13 +16,13 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://endpoint.web.id/server/file/8Cmyffly1bMBLr.jpg"
+      "value": "https://i.ibb.co/yRTB81z/Manul-Ofc-X.jpg"
     }, 
     
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ɪᴍ ᴀʟɪᴠᴇ ɴᴏᴡ.!!"
+      "value": "•°-✨👀 𝐈 𝐍əəɖ 𝐍əɰ 𝐇ɑʈəɽs 𝐓ɧə 𝐎ɭɖ 𝐎ηə 𝐁əɕɑɱə 𝐌ɣ 𝐅ɑηs•°🤍💫.!!"
     },
     
     "PREFIX": {
